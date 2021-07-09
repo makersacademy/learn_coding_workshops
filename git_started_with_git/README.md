@@ -10,3 +10,6 @@
 - Commit your first lines of code
 - Get set up on GitHub
 - Push some code to GitHub (and get your first green squares!)
+
+## Get Started
+Head over to the [instructions](instructions.md) to get started!
