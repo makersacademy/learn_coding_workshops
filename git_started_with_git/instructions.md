@@ -27,7 +27,7 @@ We will now show you how to create a new repl!
 9. List the files, what's inside?
 10. Change directory by going one level out from where you currently are, back to where you started.
 
--------
+---
 
 ## Introducing and using Git 
  
@@ -49,17 +49,12 @@ Why use Git?
 
 - To commit the file(s) we've added we need to run: **git commit -m 'our description of what changes we are saving'**
 
-You might get an error asking for you to set your account's identity before you can commit, follow the instructions in the terminal, you will need to enter each of the following separately: 
-**git config --global user.email "your@email.com"** 
-**git config --global user.name "your-username"**
+You might get an error asking for you to set your account's identity before you can commit, follow the instructions in the terminal, you will need to enter each of the following commands separately:
+- **git config --global user.email "your@email.com"** 
+- **git config --global user.name "your-username"**
 
-- Once you've added the above you should be able to commit and see something like:
-```shell
-[main 04fd787] Updated instructions
- 1 file changed, X insertions(+), X deletions(-)
-```
-
-- Run **git status**, if you get: **On branch main... nothing to commit, working tree clean** then you can move on!
+- Once you've added the above you should be able to commit and see something like **'Updated instructions 1 file changed...'**
+- Run **git status**, if you get: **'On branch main... nothing to commit, working tree clean'** then you can move on!
 
 > Tip: Run **git log** to look at your commit history.
 
@@ -67,6 +62,7 @@ You might get an error asking for you to set your account's identity before you 
 
 This is where GitHub comes in handy.
 
+---
 ## Introducing and using GitHub 
 
 Git allows us to save things and track changes locally, GitHub allows us to save remotely (in the cloud) and displays what we've saved using Git in a nicer way! We can access Github from anywhere that we have access to the internet. 
