@@ -107,8 +107,9 @@ Now those changes are stored remotely on GitHub, but how do we pull them back do
 Congratulations, you've just made your first pushes and pulls to and from GitHub! Go ahead and spend some time now adding to your local README file on Replit with some of the things you've learnt from this workshop and try pushing those updates to your GitHub repo.
 
 # Glossary of Technical Terms
-| Markdown     | A markup language for creating formatted text using a plain-text editor and easier to read and edit than HTML.           |
+| Word         | Definition                                                                                                               |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------ |
+| Markdown     | A markup language for creating formatted text using a plain-text editor and easier to read and edit than HTML.           |
 | Terminal     | An interface that allows you to access the command line.                                                                 |
 | Command Line | A text-based user interface to the computer.The user can type in instructions for immediate execution by pressing enter. |
 | Directory    | Also known as a folder, it is a collection of files grouped together to keep things organised.                           |
