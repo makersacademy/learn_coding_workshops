@@ -1,1 +1,1 @@
-# learn_coding_workshops
+# Learn Coding Workshops
