@@ -1,11 +1,11 @@
 
 # Command line basics 
   
-- **ls** - On Macs, lists the current files within your current directory
+- **ls** - Lists the current files within your current directory (folder)
 - **mkdir name-of-directory** - make a new directory (folder)
-- **touch name-of-file** - On Macs, make a new file
-- **cd ./other-directory** - Change directory into the one you want by providing the path to that directory, for example:
-- **cd ..** - go out one level from your current directory (remember the space)
+- **touch name-of-file** - Make a new file
+- **cd ./other-directory** - Change directory into the one you want by providing the path to that directory
+- **cd ..** - Go out one level from your current directory (remember the space between cd and ..)
 
 ## Creating a Repl
 We will now show you how to create a new repl!
