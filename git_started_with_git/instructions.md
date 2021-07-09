@@ -7,21 +7,25 @@
 - **cd ./other-directory** - Change directory into the one you want by providing the path to that directory, for example:
 - **cd ..** - go out one level from your current directory (remember the space)
 
-We will now show you how to create a new repl! 
+## Creating a Repl
+We will now show you how to create a new repl!
+1. Go to [repl.it](https://repl.it/)
+2. Click the blue `+ New repl` button in the top left
+3. Select Ruby as your language and choose a name for your repl (or you can use one of their amusing suggested names)
+4. Click `Create repl`
 
 ## Instructions
 
-
-1. List the files in your current directory to see what's there. What's in there? You'll see one file there which was auto-generated when you created the repl
+1. List the files in your current directory to see what's there. What's in there? You should see one file which was auto-generated when you created the repl.
 2. Create a directory called **my-directory** using the instructions above.
 3. List the files in your current directory again - what’s new?
-4. Create a file called **my-file.md**
+4. Create a file called **my-file.txt**
 5. List your files again - what’s new?
 6. Make another directory
 7. List all your files again, what has changed?
-8. Change directory into either directory by providing the path to that directory
+8. Change directory into either of your new ones by providing the path to that directory
 9. List the files, what's inside?
-10. Change directory by going one level out of the directory back to where you started.
+10. Change directory by going one level out from where you currently are, back to where you started.
 
 -------
 
@@ -30,43 +34,38 @@ We will now show you how to create a new repl!
 
 Why use Git?
 
+### Initialising a new git repo
 - We just made 2 new directories and a new file. Let's run 'git status' to see what the current state is in our terminal. 
-
 - We need to initialise Git before it starts to track changes.
-
-- Run **'git init'** then run **'git status'**. What do you see now?
-
+- Run **git init** then run **git status**. What do you see now?
 - When files show up as **'Untracked files'** it means they are not saved.
+- Let's save the new directories and the file now by doing a git commit. This is essentially the same as when you save a document on word, etc.
 
-- Let's save the new directories and the file now by doing a Git commit. This is essentially the same as when you save a document on word etc.
-
-To commit all the files, first we need to add them by running: 
-**git add name-of-file**
-
+### Adding & committing files
+- To commit a file we've edited, first we need to add it by running: **git add name-of-file**
 - Run **git status**, what has changed?
+- 
+> Tip: You can add all new files at the same time by running **git add .** (including the space and full stop)
 
-Tip: You can add all new files at the same time by running **git add .** 
-
-- To commit the files we've added we need to run:
-**git commit -m 'our description of what we are saving**
+- To commit the file(s) we've added we need to run: **git commit -m 'our description of what changes we are saving'**
 
 You might get an error asking for you to set your account's identity before you can commit, follow the instructions in the terminal, you will need to enter each of the following separately: 
+**git config --global user.email "your@email.com"** 
+**git config --global user.name "your-username"**
 
-**git config --global user.email youremail@whatever.com** 
+- Once you've added the above you should be able to commit and see something like:
+```shell
+[main 04fd787] Updated instructions
+ 1 file changed, X insertions(+), X deletions(-)
+```
 
-**git config --global user.name your-name**
+- Run **git status**, if you get: **On branch main... nothing to commit, working tree clean** then you can move on!
 
-- Once you've added the above you should be able to commit. 
+> Tip: Run **git log** to look at your commit history.
 
-- Run git status - if you get:
-**On branch master
-nothing to commit, working tree clean** then you can move on!
+- Now that everything is saved 'locally' in our environment (we're using repl.it now but usually we'd be using git on our own local machines), what happens if repl.it breaks or we lose our laptops? We have no back-up if everything is only saved locally...
 
-Tip: Run **git log** to look at your commit history! 
-
-- Now that everything is saved locally in our environment (we're using repl.it now but usually we'd be using git on our own machines), what happens if repl.it breaks or if we lose our laptops? We have no back-up if everything is saved locally... 
-
-This is where GitHub comes in handy! 
+This is where GitHub comes in handy.
 
 ## Introducing and using GitHub 
 
