@@ -97,4 +97,4 @@ Now those changes are stored remotely on GitHub, but how do we pull them back do
 - Pull those changes with `git pull`
 - You should now see the README.md file in the file structure on the left.
 
-Congratulations, you've just made your first pushes and pulls to and from GitHub! Go ahead and spend some time now adding to your README file with some of the things you've learnt from this workshop and try pushing those updates to your GitHub repo.
+Congratulations, you've just made your first pushes and pulls to and from GitHub! Go ahead and spend some time now adding to your local README file on Replit with some of the things you've learnt from this workshop and try pushing those updates to your GitHub repo.
