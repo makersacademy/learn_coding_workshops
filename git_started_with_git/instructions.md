@@ -29,7 +29,7 @@ We will now show you how to create a new repl!
 
 ---
 
-## Introducing and using Git 
+# Introducing and using Git 
  
 
 Why use Git?
@@ -63,13 +63,13 @@ You might get an error asking for you to set your account's identity before you 
 This is where GitHub comes in handy.
 
 ---
-## Introducing and using GitHub 
+# Introducing and using GitHub 
 
 Git allows us to save things and track changes locally, GitHub allows us to save remotely (in the cloud) and displays what we've saved using Git in a nicer way! We can access Github from anywhere that we have access to the internet. 
 
 There are also a bunch of cool features on GitHub that help developers collaborate.
 
-#### Pushing to GitHub
+### Pushing to GitHub
 - Go to GitHub, click on your repositories and then the **'new'** green button. Name your repo, click **'public'** and then **'Create repository'**
 - Enter each of the commands one by one under the heading **…push an existing repository from the command line**
 ```shell
@@ -90,7 +90,7 @@ Password for 'https://your-username@github.com': token-generated-from-GitHub
 ```
 You've now just made your first push to GitHub, go ahead and take a look on GitHub, you should see your files on there now.
 
-#### Pulling Changes from GitHub
+### Pulling Changes from GitHub
 Now let's make a change on GitHub and try to pull that back to our local machine. This might simulate a colleague making some changes to the code that you're both collaborating on, they've pushed them to the remote repo and you want to bring those changes to your local copy.
 
 Every GitHub repository should have a file called README.md. It's the file that is automatically shown to everyone visiting your project and is used to tell other devs what your code does and how to use it. The `.md` extension 
@@ -105,3 +105,10 @@ Now those changes are stored remotely on GitHub, but how do we pull them back do
 - You should now see the README.md file in the file structure on the left.
 
 Congratulations, you've just made your first pushes and pulls to and from GitHub! Go ahead and spend some time now adding to your local README file on Replit with some of the things you've learnt from this workshop and try pushing those updates to your GitHub repo.
+
+# Glossary of Technical Terms
+| Markdown     | A markup language for creating formatted text using a plain-text editor and easier to read and edit than HTML.           |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------ |
+| Terminal     | An interface that allows you to access the command line.                                                                 |
+| Command Line | A text-based user interface to the computer.The user can type in instructions for immediate execution by pressing enter. |
+| Directory    | Also known as a folder, it is a collection of files grouped together to keep things organised.                           |
