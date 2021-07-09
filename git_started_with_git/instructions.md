@@ -51,7 +51,7 @@ Why use Git?
 
 You might get an error asking for you to set your account's identity before you can commit, follow the instructions in the terminal, you will need to enter each of the following commands separately:
 - **git config --global user.email "your@email.com"** 
-- **git config --global user.name "your-username"**
+- **git config --global user.name "Firstname Lastname"**
 
 - Once you've added the above you should be able to commit and see something like **'Updated instructions 1 file changed...'**
 - Run **git status**, if you get: **'On branch main... nothing to commit, working tree clean'** then you can move on!
@@ -70,13 +70,25 @@ Git allows us to save things and track changes locally, GitHub allows us to save
 There are also a bunch of cool features on GitHub that help developers collaborate.
 
 #### Pushing to GitHub
-- Go to GitHub, click on your repositories and then the **'new'** green button. Name your repo, click **'public'** then **'create repository'**
-- Next you'll need to create a [Personal Access Token](https://github.com/settings/tokens) to use instead of your GitHub password in Replit
-- Follow the instructions under **…or push an existing repository from the command line**
-> git push
+- Go to GitHub, click on your repositories and then the **'new'** green button. Name your repo, click **'public'** and then **'Create repository'**
+- Enter each of the commands one by one under the heading **…push an existing repository from the command line**
+```shell
+git remote add origin https://github.com/your-username/your-repo-name.git
+git branch -M main
+git push -u origin main
+```
+- This will then ask you for your username and password to your GitHub account. For this to work, you'll need to create a [Personal Access Token](https://github.com/settings/tokens) to use instead of your GitHub password.
+- Click the `Generate new token` button in the top right
+- Enter your GitHub password
+- Add a note to remind yourself what this access token is for, e.g. 'Replit'
+- Tick the `write:packages` box and click the green `Generate token` button
+- Copy the long randomly generated code highlighted in the green box
+- Go back to Replit and enter your username, hit enter, then paste your Personal Access Token instead of your password (you won't see anything appear when you do this but just hit `enter` and it should work)
+```
 Username for 'https://github.com': your-username
-Password for 'https://katerina-codes@github.com': token-generated-from-GitHub 
-- You've now just made your first push to GitHub, go ahead and take a look on GitHub, you should see your files on there now.
+Password for 'https://your-username@github.com': token-generated-from-GitHub 
+```
+You've now just made your first push to GitHub, go ahead and take a look on GitHub, you should see your files on there now.
 
 #### Pulling Changes from GitHub
 Now let's make a change on GitHub and try to pull that back to our local machine. This might simulate a colleague making some changes to the code that you're both collaborating on, they've pushed them to the remote repo and you want to bring those changes to your local copy.
