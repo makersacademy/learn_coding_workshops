@@ -6,6 +6,7 @@
 - **touch name-of-file** - Make a new file
 - **cd ./other-directory** - Change directory into the one you want by providing the path to that directory
 - **cd ..** - Go out one level from your current directory (remember the space between cd and ..)
+- **pwd** - Print Working Directory shows the path to the directory you are currently in
 
 ## Creating a Repl
 We will now show you how to create a new repl!
@@ -16,7 +17,7 @@ We will now show you how to create a new repl!
 
 ## Instructions
 
-1. List the files in your current directory to see what's there. What's in there? You should see one file which was auto-generated when you created the repl.
+1. List the files in your current directory to see what's there. What's in there? You should see one file (**main.rb**) which was auto-generated when you created the repl.
 2. Create a directory called **my-directory** using the instructions above.
 3. List the files in your current directory again - what’s new?
 4. Create a file called **my-file.txt**
@@ -25,7 +26,7 @@ We will now show you how to create a new repl!
 7. List all your files again, what has changed?
 8. Change directory into either of your new ones by providing the path to that directory
 9. List the files, what's inside?
-10. Change directory by going one level out from where you currently are, back to where you started.
+10. Change directory by going one level out from where you currently are, back to where you started. If you list your files here, you should be able to see the 2 repositories you made, the main.rb file and the txt file you created. 
 
 ---
 
@@ -35,8 +36,13 @@ We will now show you how to create a new repl!
 Why use Git?
 
 ### Initialising a new git repo
-- We just made 2 new directories and a new file. Let's run 'git status' to see what the current state is in our terminal. 
-- We need to initialise Git before it starts to track changes.
+- We just made 2 new directories and a new file. Let's run 'git status' to see what the current state is in our terminal. You will get an error like the one below. 
+
+  **fatal: not a git repository (or any parent up to mount point /home/runner)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).**
+
+- This is because we need to initialise (activate Git) Git before it starts to track changes.
+
 - Run **git init** then run **git status**. What do you see now?
 - When files show up as **'Untracked files'** it means they are not saved.
 - Let's save the new directories and the file now by doing a git commit. This is essentially the same as when you save a document on word, etc.
@@ -53,7 +59,9 @@ You might get an error asking for you to set your account's identity before you 
 - **git config --global user.email "your@email.com"** 
 - **git config --global user.name "Firstname Lastname"**
 
-- Once you've added the above you should be able to commit and see something like **'Updated instructions 1 file changed...'**
+- Once you've added the above you should be able to commit, run the same command again: **git commit -m 'our description of what changes we are saving'**
+- You should see see something like **'Updated instructions 1 file changed...'**
+
 - Run **git status**, if you get: **'On branch main... nothing to commit, working tree clean'** then you can move on!
 
 > Tip: Run **git log** to look at your commit history.
