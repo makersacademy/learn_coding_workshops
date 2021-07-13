@@ -126,3 +126,8 @@ Congratulations, you've just made your first pushes and pulls to and from GitHub
 | Terminal     | An interface that allows you to access the command line.                                                                 |
 | Command Line | A text-based user interface to the computer.The user can type in instructions for immediate execution by pressing enter. |
 | Directory    | Also known as a folder, it is a collection of files grouped together to keep things organised.                           |
+
+
+# Useful Resources
+
+- Use this [markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/) to get you started with styling your text! 
