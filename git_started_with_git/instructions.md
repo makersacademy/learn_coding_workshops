@@ -105,7 +105,7 @@ Now let's make a change on GitHub and try to pull that back to our local machine
 
 Every GitHub repository should have a file called README.md. It's the file that is automatically shown to everyone visiting your project and is used to tell other devs what your code does and how to use it. The `.md` extension 
 - Go to GitHub and click the `Add a README` button
-- Change the markdown text in the editor from `# github-test` to something like `# Welcome to my first GitHub Repo`.
+- Change the markdown text in the editor from `# name-of-your-repo` to something like `# Welcome to my first GitHub Repo`.
 - Scroll down and add a commit message such as 'Created README file'
 - Click `Commit changes`
 
