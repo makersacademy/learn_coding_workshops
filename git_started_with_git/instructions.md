@@ -91,8 +91,9 @@ git push -u origin main
 - Click the `Generate new token` button in the top right
 - Enter your GitHub password
 - Add a note to remind yourself what this access token is for, e.g. 'Replit'
-- Tick the `write:packages` box and click the green `Generate token` button
-- Copy the long randomly generated code highlighted in the green box
+- Importantly, tick the `write:packages` tick-box that will enable the right access permissions to your repo
+- Click the green `Generate token` button at the bottom
+- Copy the long, randomly generated code highlighted in the green box
 - Go back to Replit and enter your username, hit enter, then paste your Personal Access Token instead of your password (you won't see anything appear when you do this but just hit `enter` and it should work)
 ```
 Username for 'https://github.com': your-username
