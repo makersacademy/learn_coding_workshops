@@ -100,6 +100,8 @@ Password for 'https://your-username@github.com': token-generated-from-GitHub
 ```
 You've now just made your first push to GitHub, go back to GitHub, scroll up and click the blue link to the name of repo, you should see your files on there now.
 
+> Tip: Version control in Replit is still in Beta so there might be the occasional bug. Replit might reset in the background and move you to a different branch called 'master' (you can see if this is the case by running `git status`). If that happens, just go back to the commit stage of the instructions, work through it again and debug any errors you might encounter. If you get really stuck, reach out to a coach or teaching assistant on Learn Coding Slack.
+
 ### Pulling Changes from GitHub
 Now let's make a change on GitHub and try to pull that back to our local machine. This might simulate a colleague making some changes to the code that you're both collaborating on, they've pushed them to the remote repo and you want to bring those changes to your local copy.
 
