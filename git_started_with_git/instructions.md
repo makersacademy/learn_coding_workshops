@@ -106,7 +106,7 @@ You've now just made your first push to GitHub, go back to GitHub, scroll up and
 ### Pulling Changes from GitHub
 Now let's make a change on GitHub and try to pull that back to our local machine. This might simulate a colleague making some changes to the code that you're both collaborating on, they've pushed them to the remote repo and you want to bring those changes to your local copy.
 
-Every GitHub repository should have a file called README.md. It's the file that is automatically shown to everyone visiting your project and is used to tell other devs what your code does and how to use it. The `.md` extension stands for Markdown, this is a markup language for creating formatted text.
+Every GitHub repository should have a file called README.md. It's the file that is automatically shown to everyone visiting your project and is used to tell other devs what your code does and how to use it. The `.md` extension stands for Markdown, this is a markup language for creating formatted text and can do lots of cool things, check out the [GitHub documentation](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) for more info.
 - Go to GitHub and click the `Add a README` button
 - Change the markdown text in the editor from `# name-of-your-repo` to something like `# Welcome to my first GitHub Repo`
 - Play around with a few other Markdown syntax features such as subheadings and bullet points
