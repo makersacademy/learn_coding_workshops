@@ -98,20 +98,20 @@ git push -u origin main
 Username for 'https://github.com': your-username
 Password for 'https://your-username@github.com': token-generated-from-GitHub 
 ```
-You've now just made your first push to GitHub, go ahead and take a look on GitHub, you should see your files on there now.
+You've now just made your first push to GitHub, go back to GitHub, scroll up and click the blue link to the name of repo, you should see your files on there now.
 
 ### Pulling Changes from GitHub
 Now let's make a change on GitHub and try to pull that back to our local machine. This might simulate a colleague making some changes to the code that you're both collaborating on, they've pushed them to the remote repo and you want to bring those changes to your local copy.
 
-Every GitHub repository should have a file called README.md. It's the file that is automatically shown to everyone visiting your project and is used to tell other devs what your code does and how to use it. The `.md` extension 
+Every GitHub repository should have a file called README.md. It's the file that is automatically shown to everyone visiting your project and is used to tell other devs what your code does and how to use it. The `.md` extension stands for Markdown, this is a markup language for creating formatted text.
 - Go to GitHub and click the `Add a README` button
-- Change the markdown text in the editor from `# name-of-your-repo` to something like `# Welcome to my first GitHub Repo`.
+- Change the markdown text in the editor from `# name-of-your-repo` to something like `# Welcome to my first GitHub Repo`
+- Play around with a few other Markdown syntax features such as subheadings and bullet points
 - Scroll down and add a commit message such as 'Created README file'
 - Click `Commit changes`
 
 Now those changes are stored remotely on GitHub, but how do we pull them back down to your local machine?
-- You can check to see if commits have been made remotely with the command `git remote show origin`
-- Pull those changes with `git pull`
+- Pull those changes with `git pull` (if this doesn't work, you might need to try `git pull origin main --allow-unrelated-histories`)
 - You should now see the README.md file in the file structure on the left.
 
 Congratulations, you've just made your first pushes and pulls to and from GitHub! Go ahead and spend some time now adding to your local README file on Replit with some of the things you've learnt from this workshop and try pushing those updates to your GitHub repo.
