@@ -130,4 +130,4 @@ Congratulations, you've just made your first pushes and pulls to and from GitHub
 
 # Useful Resources
 
-- Use this [markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/) to get you started with styling your text! 
+- Use this [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/) to get you started with styling your text! 
