@@ -14,6 +14,7 @@ We will now show you how to create a new repl!
 2. Click the blue `+ New repl` button in the top left
 3. Select Ruby as your language and choose a name for your repl (or you can use one of their amusing suggested names)
 4. Click `Create repl`
+5. Click on the `Shell` tab (not Console) in Replit
 
 ## Instructions
 
