@@ -36,7 +36,8 @@ We will now show you how to create a new repl!
 
 Why use Git?
 
-### Initialising a new git repo
+### Initialising a new git repo - make sure you're in the right repository! 
+
 - We just made 2 new directories and a new file. Let's run 'git status' to see what the current state is in our terminal. You will get an error like the one below. 
 
   **fatal: not a git repository (or any parent up to mount point /home/runner)
@@ -51,7 +52,7 @@ Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).**
 ### Adding & committing files
 - To commit a file we've edited, first we need to add it by running: **git add name-of-file**
 - Run **git status**, what has changed?
-- 
+
 > Tip: You can add all new files at the same time by running **git add .** (including the space and full stop)
 
 - To commit the file(s) we've added we need to run: **git commit -m 'our description of what changes we are saving'**
